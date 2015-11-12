@@ -9,9 +9,6 @@ namespace Task1
     public sealed class SquareMatrix<T> : Matrix<T>
     {
 
-
-        protected readonly T[,] array;
-
         public SquareMatrix(int size)
         {
 

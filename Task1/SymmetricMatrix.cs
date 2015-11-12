@@ -9,7 +9,6 @@ namespace Task1
     public sealed class SymmetricMatrix<T> : Matrix<T>
     {
 
-        protected readonly T[,] array;
 
         public SymmetricMatrix(int size)
         {

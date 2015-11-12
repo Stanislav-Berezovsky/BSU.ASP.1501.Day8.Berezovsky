@@ -10,6 +10,7 @@ namespace Task1
     {
         public EventHandler<MyEventArgs<T>> Change = delegate { };
 
+        protected T[,] array;
         protected virtual void IsChange(object sender, MyEventArgs<T> eventArg)
         {
             var change = Change;

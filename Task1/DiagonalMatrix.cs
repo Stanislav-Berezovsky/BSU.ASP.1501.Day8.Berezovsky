@@ -8,7 +8,6 @@ namespace Task1
 {
     public sealed class DiagonalMatrix<T> : Matrix<T>
     {
-        private readonly T[,] array;
 
         public DiagonalMatrix(T[,] array)
         {
