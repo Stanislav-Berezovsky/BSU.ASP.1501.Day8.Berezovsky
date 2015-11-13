@@ -10,15 +10,6 @@ namespace Task1
     {
 
 
-        public SymmetricMatrix(int size)
-        {
-            if (size > 0)
-                array = new T[size, size];
-            else
-                throw new ArgumentOutOfRangeException();
-        }
-
-
         public SymmetricMatrix(T[,] array)
         {
             if (array == null)

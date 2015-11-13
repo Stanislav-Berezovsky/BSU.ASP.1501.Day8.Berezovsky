@@ -9,14 +9,6 @@ namespace Task1
     public sealed class SquareMatrix<T> : Matrix<T>
     {
 
-        public SquareMatrix(int size)
-        {
-
-            if (size > 0)
-                array = new T[size,size];
-            else
-                throw new ArgumentOutOfRangeException();
-        }
 
         public SquareMatrix(T[,] array)
         {
