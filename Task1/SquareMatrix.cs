@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task1
 {
-    public sealed class SquareMatrix<T> : Matrix<T>
+    public sealed class SquareMatrix<T> : Matrix<T>//
     {
 
 
